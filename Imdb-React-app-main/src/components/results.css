@@ -1,0 +1,82 @@
+
+.containerResult {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    margin: 60px;
+  }
+  
+  .containerResult .containerInfo {
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 30px #fff;
+            box-shadow: 0px 0px 30px #fff;
+    background-color: rgba(20, 20, 20, 0.89);
+    width: 50vw;
+    height: 300px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    position: absolute;
+    top: 280px;
+    left: 500px;
+  }
+  
+  .containerResult ul li {
+    font-size: 19px;
+  }
+  
+  .containerResult h1 {
+    margin-left: 80px;
+    font-size: 50px;
+    color: white;
+  }
+  
+  .containerResult img {
+    width: 350px;
+    height: 460px;
+    border-radius: 11px;
+    margin: 10px;
+  
+    border: 10px solid #fff;
+  
+  }
+  
+  .containerResult .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  
+  .plot {
+    color: #fff;
+    margin: 0px 75px;
+    font-size: 20px;
+  }
+  
+  .plot button {
+    background-color: #ce7e15;
+    border-color: red;
+    border-radius: 5px;
+    margin-left: 5px;
+    -webkit-box-shadow: 0px 0px 10px red;
+            box-shadow: 0px 0px 10px red;
+  }
+  
+  .plot button:hover {
+    background-color: #da3f3f;
+  }
